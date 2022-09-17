@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-.parallax p {
+.parallax h1 {
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
@@ -37,17 +37,17 @@
 }
 
 .header {
-  background-image: url('./assets/img/background-parallax/pexels-jacob-colvin-1757363.jpg');
+  background-image: url('../img/background-parallax/pexels-jacob-colvin-1757363.jpg');
 }
 
 .intro {
-  background-image: url('./assets/img/background-parallax/pexels-asad-photo-maldives-1591373.jpg');
+  background-image: url('../img/background-parallax/pexels-asad-photo-maldives-1591373.jpg');
 }
 
 .content {
-  background-image: url('./assets/img/background-parallax/pexels-jaime-reimer-2662116.jpg');
+  background-image: url('../img/background-parallax/pexels-jaime-reimer-2662116.jpg');
 }
 
 .footer {
-  background-image: url('./assets/img/background-parallax/pexels-freestocksorg-839462.jpg');
+  background-image: url('../img/background-parallax/pexels-freestocksorg-839462.jpg');
 }
