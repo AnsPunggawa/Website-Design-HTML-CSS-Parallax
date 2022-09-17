@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parallax {
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax p {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 1.25rem;
+  /* text-indent: 20px; */
+}
+
+.parallax p::after {
+  content: '';
+  margin-right: -1.25rem;
+}
+
+.header {
+  background-image: url('./assets/img/background-parallax/pexels-jacob-colvin-1757363.jpg');
+}
+
+.intro {
+  background-image: url('./assets/img/background-parallax/pexels-asad-photo-maldives-1591373.jpg');
+}
+
+.content {
+  background-image: url('./assets/img/background-parallax/pexels-jaime-reimer-2662116.jpg');
+}
+
+.footer {
+  background-image: url('./assets/img/background-parallax/pexels-freestocksorg-839462.jpg');
+}
