@@ -27,13 +27,13 @@
   backdrop-filter: blur(4px);
   border-radius: 5px;
   font-size: 3.5rem;
-  font-weight: 500;
-  letter-spacing: 20px;
+  font-weight: 700;
+  letter-spacing: 1.25rem;
 }
 
 .parallax p::after {
   content: '';
-  margin-right: -20px;
+  margin-right: -1.25rem;
 }
 
 .header {
