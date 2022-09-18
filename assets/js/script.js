@@ -1,2 +1,7 @@
 const nama = 'Anas Punggawa';
-console.log(nama);
+
+const showName = (nama) => {
+  console.log(nama);
+};
+
+showName(nama);
